@@ -3,3 +3,143 @@
     padding: 0;
     box-sizing: content-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&family=Playfair+Display:wght@900&display=swap');
+
+.mobile_menu{
+    display: none;
+}
+
+header{
+    display: flex;
+    border: solid;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: 7vh;
+}
+
+.todecacho{
+    justify-content: center;
+    width: 80%;
+}
+
+.logo_caixa{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+header div{
+    display: flex;
+    border: solid red;
+    width: 70%;
+    justify-content: space-evenly;
+    margin-right: -3vw;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    width: 14%;
+    margin-right: -6vw;
+    align-items: center;
+}
+
+.face{
+    height: 70%;
+    
+}
+
+.insta{
+    height: 70%;
+}
+
+.youtube{
+    height: 70%;
+}
+
+.top{
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid;
+    width: 40vw;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #9767A9;
+    font-weight: 500;
+    font-size: 98%;
+}
+
+li:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+input{
+    height: 3vh;
+    border-radius: 20px;
+    border: solid #9767A9;
+    margin-top: 0.5vh;
+    margin-right: -4vw;
+    width: 15%;
+}
+
+input::placeholder{
+    background-image: url('/assets/lupa.png');
+    background-repeat: no-repeat;
+    padding-left: 3vh;
+    background-size: 10%;
+    background-position-x: 0.5vh;
+    color: #9767A9;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.7vh;
+    font-weight: lighter;
+}
+
+
+@media (max-width:800px){
+
+    .mobile_menu{
+        display: initial;
+        display: flex;
+        width: 50%;
+        border: solid;
+    }
+
+    .menu{
+        width: 15%;
+        margin-left: 5%;
+        border: solid;
+    }
+
+    .menu:hover{
+        cursor: pointer;
+        background-color: #9767A9;
+        color: white;
+    }
+
+    header div{
+        display: none;
+    }
+
+    .logo_caixa{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .todecacho{
+        width: 30%;
+    }
+
+}
