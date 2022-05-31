@@ -4,7 +4,7 @@
     box-sizing: content-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;800&family=Playfair+Display:wght@900&display=swap');
 
 .mobile_menu{
     display: none;
@@ -12,12 +12,12 @@
 
 header{
     display: flex;
-    border: solid;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
     margin: auto;
     height: 7vh;
+    border: solid;
 }
 
 .todecacho{
@@ -33,7 +33,6 @@ header{
 
 header div{
     display: flex;
-    border: solid red;
     width: 70%;
     justify-content: space-evenly;
     margin-right: -3vw;
@@ -67,7 +66,6 @@ header div{
 ul {
     display: flex;
     justify-content: space-evenly;
-    border: solid;
     width: 40vw;
     align-items: center;
 }
@@ -106,14 +104,402 @@ input::placeholder{
     font-weight: lighter;
 }
 
+main{
+    width: 100%;
+    border: solid;
+}
 
+.containertop{
+   background-image: url(/assets/capa.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 99.9%;
+   height: 80vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: solid;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    width: 25%;
+    height: 36%;
+    font-size: 12vh;
+    position: relative;
+    left: 2.3em;
+    top: 8rem;
+    line-height: 90%;
+}
+
+.containertop h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: white;
+    width: 26%;
+    height: 36%;
+    font-size: 4.2vh;
+    position: relative;
+    top: 12rem;
+    left: -6em;
+}
+
+.purpleBox{
+    background-color: #9767A9;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.purpleBox h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: white;
+    width: 52%;
+    font-size: 7.5vh;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    margin-left: 4vw;
+}
+
+.purpleBox p{
+    width: 33%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 2.7vh;
+    align-items: center;
+    display: flex;
+    margin-right: 2vw;
+    border: solid;
+    height: 95%;
+    display: flex;
+    align-content: center;
+}
+
+
+.boxOne img{
+    position: relative;
+    left: 7rem;
+    top: -3rem;
+    border: solid;
+}
+
+.boxOne div{
+    width: 30%;
+    background-color: #9767A9;
+    position: relative;
+    left: 15rem;
+    top: -13rem;
+    height: 60vh;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+}
+
+.boxOne h2{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    border: solid;
+    height: 30%;
+    font-weight: 900;
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.boxOne p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: white;
+    border: solid;
+    width: 90%;
+    height:65%;
+    align-items: center;
+    display: flex;
+    font-size: 2.4vh;
+}
+
+.boxTwo{
+    position: relative;
+    bottom: 52rem;
+    right: -60rem;
+    border: solid;
+    width: 45%;
+}
+
+.boxTwo div{
+    width: 70%;
+    background-color: #9767A9;
+    position: relative;
+    left: 10rem;
+    top: -12rem;
+    height: 55vh;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxTwo h2{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    border: solid;
+    height: 30%;
+    font-weight: 900;
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.boxTwo p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: white;
+    border: solid;
+    width: 90%;
+    height:65%;
+    align-items: center;
+    display: flex;
+    font-size: 2.4vh;
+}
+
+.boxThree{
+    position: relative;
+    top: -82rem;
+    left: 7rem;
+    width: 45%;
+}
+
+.boxThree div{
+    width: 70%;
+    background-color: #9767A9;
+    position: relative;
+    left: 8rem;
+    top: -12rem;
+    height: 40vh;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxThree h2{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    border: solid;
+    height: 30%;
+    font-weight: 900;
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.boxThree p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: white;
+    border: solid;
+    width: 90%;
+    height:65%;
+    align-items: center;
+    display: flex;
+    font-size: 2.4vh;
+}
+
+.boxFour {
+    position: relative;
+    top: -127rem;
+    left: 60rem;
+    border: solid;
+    width: 40%;
+}
+
+.boxFour div{
+    width: 70%;
+    background-color: #9767A9;
+    position: relative;
+    left: 10rem;
+    top: -12rem;
+    height: 42vh;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxFour h2{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    border: solid;
+    height: 30%;
+    font-weight: 900;
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.boxFour p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: white;
+    border: solid;
+    width: 90%;
+    height:65%;
+    align-items: center;
+    display: flex;
+    font-size: 2.4vh;
+}
+
+.boxFive {
+    position: relative;
+    top: -153rem;
+    left: 7rem;
+    width: 45%;
+    border: solid;
+}
+
+.boxFive div {
+    width: 70%;
+    background-color: #9767A9;
+    position: relative;
+    left: 10rem;
+    top: -12rem;
+    height: 52vh;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxFive h2{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    border: solid;
+    height: 30%;
+    font-weight: 900;
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.boxFive p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: white;
+    border: solid;
+    width: 90%;
+    height:65%;
+    align-items: center;
+    display: flex;
+    font-size: 2.4vh;
+}
+
+.boxSix {
+    position: relative;
+    top: -203rem;
+    left: 60rem;
+    width: 45%;
+    border: solid;
+}
+
+.boxSix div {
+    width: 70%;
+    background-color: #9767A9;
+    position: relative;
+    left: 10rem;
+    top: -12rem;
+    height: 42vh;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxSix h2{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    border: solid;
+    height: 30%;
+    font-weight: 900;
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.boxSix p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: white;
+    border: solid;
+    width: 90%;
+    height:65%;
+    align-items: center;
+    display: flex;
+    font-size: 2.4vh;
+}
+
+.boxSeven {
+    position: relative;
+    top: -229rem;
+    left: 7rem;
+    width: 45%;
+    border: solid;
+}
+
+.boxSeven div {
+    width: 70%;
+    background-color: #9767A9;
+    position: relative;
+    left: 10rem;
+    top: -12rem;
+    height:35vh;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxSeven h2{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    border: solid;
+    height: 30%;
+    font-weight: 900;
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.boxSeven p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: white;
+    border: solid;
+    width: 90%;
+    height:65%;
+    align-items: center;
+    display: flex;
+    font-size: 2.4vh;
+}
 @media (max-width:800px){
-
     .mobile_menu{
         display: initial;
         display: flex;
         width: 50%;
         border: solid;
+        position: relative;
     }
 
     .menu{
@@ -127,6 +513,15 @@ input::placeholder{
         background-color: #9767A9;
         color: white;
     }
+
+    .menu:hover::before{
+        content: Dicas Cronograma Referencia Produtos Cadastre-se Contato;
+        background-color: black;
+        width: 30vw;
+        height: 10vh;
+        position: absolute;
+    }
+    
 
     header div{
         display: none;
@@ -142,4 +537,215 @@ input::placeholder{
         width: 30%;
     }
 
+    .containertop{
+        display: flex;
+        flex-direction: column;
+        height: 42vh;
+        background-position-x: 35%;
+    }
+
+    .containertop h1{
+        font-size: 7vh;
+       position: relative;
+       left: -8rem;
+       width: 60%;
+       top: 0.7em;
+    }
+
+    .containertop h2{
+        font-size: 2.3vh;
+        width: 50%;
+        position: relative;
+        top: -7rem;
+        left: -9rem;
+    }
+
+    .purpleBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .purpleBox h2{
+        font-size: 3vh;
+        width: 80%;
+        margin-right: 2rem;
+    }
+
+    .purpleBox p{
+        font-size: 1.8vh;
+        width: 70%;
+        margin-bottom: 2vh;
+    }
+
+    .boxOne img{
+        width: 70%;
+        position: relative;
+        top:3rem;
+    }
+
+    .boxOne div{
+        width: 98%;
+        position: relative;
+        left: -0.2rem;
+    }
+
+    .boxOne p{
+        width: 80%;
+        font-size: 2vh;
+    }
+
+    .boxTwo{
+        position: relative;
+        left: 0.01rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: -11rem;
+        width: 100%;
+    }
+
+    .boxTwo img{
+        width: 70%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .boxTwo div{
+        width: 100%;
+        position: relative;
+        left: -0.3rem;
+        top: -5rem;
+    }
+
+    .boxTwo p{
+        font-size: 2vh;
+        width: 80%;
+    }
+
+    .boxThree{
+        position: relative;
+        left: 0.01rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: -14rem;
+        width: 100%;
+    }
+    .boxThree img {
+        width: 70%;
+    }
+
+    .boxThree div{
+        width: 100%;
+        position: relative;
+        left: -0.4rem;
+        top: -5rem;
+    }
+
+    .boxThree p{
+        width: 80%;
+    }
+
+    .boxFour {
+        position: relative;
+        left: 0.01rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: -14rem;
+        width: 100%;
+    }
+
+    .boxFour img {
+        width: 70%;
+    }
+
+    .boxFour div{
+        width: 100%;
+        position: relative;
+        left:-0.4rem;
+        top: -5rem;
+    }
+
+    .boxFour p{
+        font-size: 2vh;
+        width: 80%;
+    }
+
+    .boxFive {
+        position: relative;
+        left: 0.01rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: -14rem;
+        width: 100%;
+    }
+
+    .boxFive img {
+        width: 70%;
+    }
+
+    .boxFive div {
+        width: 100%;
+        position: relative;
+        left:-0.4rem;
+        top: -5rem;
+    }
+
+    .boxFive p{
+        font-size: 2.3vh;
+    }
+
+    .boxSix {
+        position: relative;
+        left: 0.01rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: -14rem;
+        width: 100%;
+    }
+
+    .boxSix img {
+        width: 70%;
+    }
+
+    .boxSix div {
+        width: 100%;
+        position: relative;
+        left:-0.4rem;
+        top: -5rem;
+    }
+
+    .boxSix p{
+        font-size: 2.3vh;
+    }
+
+    .boxSeven {
+        position: relative;
+        left: 0.01rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: -14rem;
+        width: 100%;
+    }
+
+    .boxSeven img {
+        width: 70%;
+    }
+
+    .boxSeven div {
+        width: 100%;
+        position: relative;
+        left:-0.4rem;
+        top: -5rem;
+    }
+
+    .boxSeven p{
+        font-size: 2.3vh;
+    }
 }
